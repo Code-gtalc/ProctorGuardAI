@@ -1,0 +1,12 @@
+device: "GPU"
+horizontal_threshold: 0.20
+vertical_threshold_up: 0.20
+vertical_threshold_down: 0.20
+margin: 0.04
+min_radial: 0.08
+arrow_scale: 100
+num_chunks: 8
+video_path: "riya1.mp4"
+output_csv: "gaze_log.csv"
+inside_all: false
+screen_margin: 0.12

@@ -1,0 +1,26 @@
+center_gv:
+  x: 0.1510009765625
+  y: -0.269775390625
+horizontal_threshold: 0.04
+invert_gaze_x: true
+invert_gaze_y: true
+means:
+  center:
+    x: 0.1510009765625
+    y: -0.269775390625
+  down:
+    x: 0.0294036865234375
+    y: -0.35302734375
+  left:
+    x: 0.1505126953125
+    y: -0.240478515625
+  right:
+    x: -0.2012939453125
+    y: -0.3238525390625
+  up:
+    x: 0.05560302734375
+    y: -0.28759765625
+radial_threshold: 0.04
+symmetric_vertical: true
+vertical_threshold_down: 0.04
+vertical_threshold_up: 0.04
