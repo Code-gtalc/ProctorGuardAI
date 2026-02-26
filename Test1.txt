@@ -1,0 +1,23 @@
+===== ProctorGuard Evaluation =====
+Accuracy  : 0.8957
+Precision : 0.9495
+Recall    : 0.8405
+F1 Score  : 0.8916
+
+Confusion Matrix:
+[[470  23]
+ [ 82 432]]
+
+--- Confidence Distribution ---
+INSIDE  samples: mean=0.3317, median=0.3300, std=0.1779, min=0.0000, max=0.6710
+OUTSIDE samples: mean=0.0469, median=0.0000, std=0.1053, min=0.0000, max=0.5730
+
+AUC: 0.9162
+
+--- Optimal Threshold Search ---
+Best threshold : 0.090
+Best F1 at threshold: 0.8802
+Confusion Matrix at optimal threshold:
+[[446  47]
+ [ 73 441]]
+Accuracy at optimal: 0.8808
